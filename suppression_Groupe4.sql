@@ -1,0 +1,14 @@
+DROP PROCEDURE IF EXISTS GetPlayersWithActiveContracts;
+DROP TRIGGER IF EXISTS PreventTournamentDeletion;
+DROP FUNCTION IF EXISTS VerifierCapaciteTerrain;
+DROP TRIGGER IF EXISTS VerifierCapaciteTerrainTrigger;
+DROP TABLE souscontrat;
+DROP TABLE programmation;
+DROP TABLE game;
+DROP TABLE billet;
+DROP TABLE terrain;
+DROP TABLE joueur;
+DROP TABLE arbitre;
+DROP TABLE staff;
+DROP TABLE spectateur;
+DROP TABLE tournoi;
